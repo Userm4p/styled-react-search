@@ -1,0 +1,66 @@
+* {
+    color: white;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.Title {
+    font-size: 2rem;
+}
+
+.Input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: black;
+}
+
+
+.Buttons_container {
+    display: flex;
+    gap: 10px;
+}
+
+.Buttons_container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Buttons_container button:active {
+    background-color: #918080;
+}
+
+.Logs_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    height: 650px;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    font-family: monospace;
+}
+
+.Logs_container span {
+    color: yellow
+}
